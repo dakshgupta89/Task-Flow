@@ -1,0 +1,24 @@
+TaskFlow Algorithms Benchmark Results
+===========================================================================
+
+Size: 10
+  insertion_sort (by priority):  21 comparisons
+  binary_search (hit):           index=5, comparisons=3
+  binary_search (miss):          index=-1, comparisons=4
+  linear_search (hit):           index=5, comparisons=6
+  linear_search (miss):          index=-1, comparisons=10
+
+Size: 500
+  insertion_sort (by priority):  44240 comparisons
+  binary_search (hit):           index=250, comparisons=8
+  binary_search (miss):          index=-1, comparisons=9
+  linear_search (hit):           index=250, comparisons=251
+  linear_search (miss):          index=-1, comparisons=500
+
+Size: 3000
+  insertion_sort (by priority):  1543842 comparisons
+  binary_search (hit):           index=1500, comparisons=11
+  binary_search (miss):          index=-1, comparisons=12
+  linear_search (hit):           index=1500, comparisons=1501
+  linear_search (miss):          index=-1, comparisons=3000
+
